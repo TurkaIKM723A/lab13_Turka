@@ -11,7 +11,7 @@ double findNthTerm(int n) {
 
     return findNthTerm(n - 1) + 0.2;
 }
-
+ 
 int main() {
 
     setlocale(LC_CTYPE, "ukr");
